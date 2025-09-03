@@ -1,0 +1,21 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "6a94a055641002314a02b429551a31438c7662f9752a5b961f947a3becaab90d": {
+      "displayName": "WafRestStack Template",
+      "source": {
+        "path": "WafRestStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-us-east-1-aef739c8": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-us-east-1",
+          "objectKey": "6a94a055641002314a02b429551a31438c7662f9752a5b961f947a3becaab90d.json",
+          "region": "us-east-1",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-us-east-1"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
